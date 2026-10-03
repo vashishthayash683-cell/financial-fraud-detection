@@ -325,3 +325,49 @@ Fraud Probability
 Decision Threshold
        ↓
 Fraud / Normal
+
+## 📸 Dashboard & System Screenshots
+
+### Dashboard Overview
+
+The Streamlit dashboard provides an interactive overview of transaction activity, fraud statistics, risk patterns, and recent transactions.
+
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### Fraud Analytics
+
+#### Merchant & Payment Analysis
+
+![Merchant and Payment Fraud Analysis](screenshots/fraud_analytics_merchant_payment.png)
+
+#### International & Suspicious Keyword Analysis
+
+![Fraud Pattern Analysis](screenshots/fraud_analytics_patterns.png)
+
+#### Device Analysis
+
+![Device Fraud Analysis](screenshots/fraud_analytics_device_type.png)
+
+### Recent Transactions
+
+![Recent Transactions](screenshots/recent_transactions.png)
+
+### New Transaction Risk Prediction
+
+The system allows users to enter a new transaction and obtain a fraud probability using the trained Logistic Regression model.
+
+#### Normal Transaction
+
+![Normal Transaction Prediction](screenshots/risk_prediction_normal.png)
+
+#### Fraudulent Transaction
+
+![Fraudulent Transaction Prediction](screenshots/risk_prediction_fraud.png)
+
+### Fraud Alert Center
+
+High-risk transactions automatically generate alerts that can be monitored through the Alert Center. Alerts can move through the lifecycle:
+
+**Open → Investigating → Resolved**
+
+![Fraud Alert Center](screenshots/alert_center.png)
