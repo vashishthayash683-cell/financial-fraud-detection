@@ -12,21 +12,9 @@ venv/
 env/
 ENV/
 
-# Jupyter
+# Jupyters
 .ipynb_checkpoints/
 
-# ==========================================
-# Data
-# ==========================================
-
-# Raw mentor datasets
-data/raw/
-
-# Generated processed datasets
-data/processed/
-
-# SQLite database
-database/*.db
 
 # ==========================================
 # Temporary / system files

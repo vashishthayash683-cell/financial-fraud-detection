@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1 Score,ROC-AUC
+Logistic Regression,87.0,39.38,65.62,49.22,79.95
+Decision Tree,88.6,41.82,47.92,44.66,70.16
+Random Forest,89.4,45.19,48.96,47.0,79.94
+KNN,73.7,19.64,56.25,29.11,70.22
+SVC,88.1,38.83,41.67,40.2,72.92
